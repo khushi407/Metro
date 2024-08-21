@@ -1,0 +1,541 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    /* border: 2px solid red; */
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(19, 0, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.navbar .left{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: yellow;
+}
+
+.right{
+    height: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.right button{
+    height: 45px;
+    width: 190px;
+    border-radius: 25px;
+    margin-right: 15px;
+    border: 2px solid white;
+    background-color: rgb(19, 0, 145);
+
+}
+.right button a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.right button:hover{
+    border: none;
+    background-color: rgb(65, 65, 217);
+}
+
+.swiper {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 15px;
+    /* margin-inline: 25px; */
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+  }
+  .card-part {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    padding-inline: 25px;
+  }
+  .card-part .card1 {
+    height: 150px;
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #cce0ff;
+  }
+  .card1 .a1 {
+    font-size: 20px;
+    color: #002d72;
+    font-weight: 700;
+  }
+  
+  .food-part {
+    height: 70px;
+    width: 100%;
+    /* margin-top: 35px; */
+    padding-inline: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .food {
+    height: 20px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #002d72;
+  }
+  .non-food {
+    height: 20px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #002d72;
+  }
+  
+  .food-body {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    padding-inline: 25px;
+  }
+  .box {
+    height: 200px;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+  }
+  .food-body .box:hover{
+    box-shadow: #0c50b6 2px 2px 2px 2px ;
+  }
+  .box:nth-child(4) {
+    background-color: #0059e4;
+  }
+  
+  .box:nth-child(5) {
+    background-color: #0059e4;
+  }
+  
+  .box:nth-child(6) {
+    background-color: #0059e4;
+  }
+  
+  .box .a2 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #002d72;
+    text-decoration: none;
+    padding-top: 10px;
+  }
+  
+  .box .a3 {
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+  }
+  
+  .box .a4 {
+    padding-top: 20px;
+    height: 10px;
+    width: 10px;
+  }
+  .box .a5 {
+    padding-top: 20px;
+    height: 10px;
+    width: 10px;
+  }
+  
+  .metro {
+    height: 450px;
+    width: 100%;
+    background-color: #ffed00;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    padding-inline: 25px;
+  }
+  
+  .metro .text {
+    height: 450px;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .text h1 {
+    height: 140px;
+    font-size: 45px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #002d72;
+    position: relative;
+    left: 30px;
+  }
+  .text p {
+    height: 70px;
+    font-size: 20px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: #002d72;
+    position: relative;
+    right: 60px;
+  }
+  
+  .text button {
+    width: 40%;
+    height: 50px;
+    font-size: 22px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0059e4;
+    color: white;
+    border: none;
+    position: relative;
+    right: 100px;
+  }
+  .text button:hover {
+    background-color: #002d72;
+  }
+
+  .metro .image {
+    height: 450px;
+    width: 65%;
+    background-image: url(./Apply\ for\ METRO\ Card\ Hero\ Teaser.jpg);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .metro-dscription {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    /* margin-top: 35px; */
+    padding-inline: 35px;
+  }
+  
+  .metrodsc1 {
+    height: 200px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .metrodsc1 h3 {
+    color: #002d72;
+  }
+  .metrodsc1 p {
+    font-size: 15px;
+    color: #33435b;
+    padding-top: 5px;
+  }
+  
+  .metrodsc1 a {
+    color: #33435b;
+    padding-top: 5px;
+    font-size: 15px;
+  }
+  .metrodsc1 a:hover {
+    color: #0059e4;
+  }
+  
+  .customer {
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: white;
+  }
+  .part1 {
+    height: 300px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .customer .part1 a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #33435b;
+    margin: 10px;
+  }
+  .part1 h3 {
+    font-size: 18px;
+    color: #33435b;
+    position: relative;
+    left: 10px;
+  }
+  .part1 p {
+    position: relative;
+    font-size: small;
+  }
+  
+  .part1 a i {
+    font-size: 20px;
+  }
+  
+  .customer .part1 a:hover {
+    color: #0059e4;
+  }
+  #h3 {
+    position: relative;
+    top: 20px;
+    margin-bottom: 10px;
+  }
+  #span3 i {
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+  }
+  
+  #para {
+    position: relative;
+    left: 10px;
+  }
+  .product-range {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .one {
+    height: 50px;
+    width: 90%;
+    background-color: #cce0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .one p {
+    font-size: 12px;
+    color: #33435b;
+  }
+  .two {
+    height: 80px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+  }
+  .two p {
+    font-size: 14px;
+    color: #33435b;
+  }
+  .faq-part {
+    height: 60px;
+    width: 100%;
+    background-color: #002d72;
+    color: white;
+  }
+  .faq {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .faq a {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 60px;
+  }
+  
+
+
+
+
+
+@media (max-width:768px) {
+    
+    .container{
+        width: 100%;
+    }
+    .navbar.left{
+        width: 100%;
+    }
+    .left h1{
+        font-size: 28px;
+    }
+    .right{
+        width: 80%;
+    }
+
+    .right button {
+        height: 40px;
+        width: 150px;
+    }
+    .right button a{
+        font-size: 13px;
+    }
+    .food-part{
+        padding-inline: 15px;
+    }
+    .food-body {
+        height: auto;
+        width: 100%;
+        /* margin-top: 35px; */
+        padding-inline: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .box {
+        height: 200px;
+        width: 30%;
+        margin: 10px;
+      }
+    
+      .box .a4 {
+        padding-top: 20px;
+        padding-right: 40px;
+      }
+      .box .a5 {
+        padding-top: 20px;
+        padding-right: 40px;
+      }
+    
+      .metro {
+        height: auto;
+        width: 100%;
+        background-color: #ffed00;
+        display: flex;
+        margin-bottom: 20px;
+      }
+    
+      .metro .text {
+        height: 200px;
+        width: 35%;
+        padding: 20px;
+      }
+      .text h1 {
+        height: 70px;
+        font-size: 20px;
+        position: relative;
+        left: 10px;
+      }
+      .text p {
+        height: 70px;
+        position: relative;
+        left: 10px;
+      }
+    
+      .text button {
+        width: 100%;
+        position: relative;
+        left: 1px;
+      }
+    
+      .metro .image {
+        height: 250px;
+        width: 65%;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 15% 100%);
+      }
+    
+      .metro-dscription {
+        height: auto;
+        width: 100%;
+      }
+      .metrodsc1 {
+        height: auto;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    
+      .customer {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+      .part1 {
+        height: 300px;
+        width: 50%;
+      }
+      .one {
+        height: 100px;
+        width: 100%;
+      }
+      .two {
+        height: 80px;
+        width: 100%;
+        position: relative;
+      }
+      .faq-part {
+        height: 80px;
+      }
+      .faq {
+        width: 40%;
+      }
+      .faq a {
+        position: relative;
+        top: 20px;
+        left: 20px;
+      }
+    }
+    
+
+
+
+
+
+
+
+
+
+
